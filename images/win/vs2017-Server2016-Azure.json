@@ -32,6 +32,7 @@
             "location": "{{user `location`}}",
             "vm_size": "{{user `vm_size`}}",
             "resource_group_name": "{{user `resource_group`}}",
+            "build_resource_group_name": "{{user `resource_group`}}",
             "storage_account": "{{user `storage_account`}}",
             "capture_container_name": "images",
             "capture_name_prefix": "packer",
